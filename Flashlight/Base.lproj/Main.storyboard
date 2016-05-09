@@ -19,6 +19,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPV-uW-6Xa">
                                 <rect key="frame" x="285" y="285" width="30" height="30"/>
                                 <state key="normal" title="On"/>
+                                <connections>
+                                    <segue destination="QrR-N1-SeG" kind="show" identifier="showSecondViewController" id="nWu-Ih-Nwo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -26,6 +29,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="aHY-c2-oyd">
+            <objects>
+                <viewController id="QrR-N1-SeG" customClass="secondViewController" customModule="Flashlight" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a2I-sb-QyH"/>
+                        <viewControllerLayoutGuide type="bottom" id="PvC-zx-DPG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CIH-cd-4Bo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41n-iU-UgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="989"/>
         </scene>
     </scenes>
 </document>

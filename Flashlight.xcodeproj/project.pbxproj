@@ -13,6 +13,7 @@
 		680A39BF1BB2F43700130038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680A39BE1BB2F43700130038 /* Assets.xcassets */; };
 		680A39C21BB2F43700130038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680A39C01BB2F43700130038 /* LaunchScreen.storyboard */; };
 		680A39CD1BB2F43700130038 /* FlashlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A39CC1BB2F43700130038 /* FlashlightTests.swift */; };
+		755033741CE1445200435CA8 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755033731CE1445200435CA8 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		680A39C81BB2F43700130038 /* FlashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680A39CC1BB2F43700130038 /* FlashlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightTests.swift; sourceTree = "<group>"; };
 		680A39CE1BB2F43700130038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755033731CE1445200435CA8 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				680A39B71BB2F43700130038 /* AppDelegate.swift */,
 				680A39B91BB2F43700130038 /* ViewController.swift */,
 				680A39BB1BB2F43700130038 /* Main.storyboard */,
+				755033731CE1445200435CA8 /* secondViewController.swift */,
 				680A39BE1BB2F43700130038 /* Assets.xcassets */,
 				680A39C01BB2F43700130038 /* LaunchScreen.storyboard */,
 				680A39C31BB2F43700130038 /* Info.plist */,
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				680A39BA1BB2F43700130038 /* ViewController.swift in Sources */,
+				755033741CE1445200435CA8 /* secondViewController.swift in Sources */,
 				680A39B81BB2F43700130038 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +391,7 @@
 				680A39D31BB2F43700130038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680A39D41BB2F43700130038 /* Build configuration list for PBXNativeTarget "FlashlightTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +400,7 @@
 				680A39D61BB2F43700130038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
