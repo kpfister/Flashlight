@@ -42,6 +42,10 @@ class ViewController: UIViewController {
         }
     
     }
+    
+    func strobe(){
+        //Strobe going off in da club
+    }
 
 }
 
