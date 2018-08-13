@@ -43,8 +43,10 @@ class ViewController: UIViewController {
     
     }
     
-    func strobe(){
-        //Strobe going off in da club
+    func sos(){
+        //Save our ship
+        //We are drowning
+        //THis flashlight app is awesome
     }
 
 }
